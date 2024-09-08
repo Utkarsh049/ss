@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
     <nav className='flex justify-between pt-4 w-[92%]  mx-auto' >
-      <img src='/src/assets/csed.png' className='w-[30%] h-auto object-contain'></img>
+      <img src='/src/assets/csed.png' alt='Logo' className='w-[30%] h-auto object-contain'></img>
       <div className='text-white text-[2rem] m-4'>
         {/* <ul className='flex justify-around gap-24 md:flex-row flex-col'> */}
 
@@ -48,7 +48,7 @@ const Header = () => {
     }
 
     </nav>
-    <img src='/src/assets/LOGO.png' className='mt-12 px-6 mx-auto w-100% h-auto object-contain'></img>
+    <img src='/src/assets/LOGO.png' alt='Startup Street 9.0' className='mt-12 px-6 mx-auto w-100% h-auto object-contain'></img>
     </>
   )
 }

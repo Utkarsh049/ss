@@ -1,3 +1,5 @@
+import { transform } from 'typescript';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -12,6 +14,19 @@ export default {
       },
       fontFamily:{
         
+      },
+      animation:{
+        "slide":"slide 10s linear infinite "
+      },
+      keyframes:{
+        slide:{
+          "0%":{
+            transform:"translateX(0)",
+          },
+          "100%":{
+            transform:"translateX(-100%)",
+          }
+        }
       }
     },
   },
